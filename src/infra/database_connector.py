@@ -11,6 +11,6 @@ class DatabaseConnector:
             port=3306,
             database="pipeline_db",
             user="root",
-            passwd="my-pw"
+            passwd="my-pass"
         )
         cls.connection = db_connection
